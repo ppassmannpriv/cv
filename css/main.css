@@ -1,0 +1,429 @@
+.display-none,
+.hidden-md { display: none; }
+body, p, h1, h2, h3, h4, h5, h6, li, a, em, i, b, strong, span, table, td, th {
+  /*font-family: 'Univers', 'Roboto Condensed', Helvetica, Arial, sans-serif;*/
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+a:hover { text-decoration: none; color: #000; }
+
+h1, h2, h3, h4, h5 , h6 { text-transform: uppercase; }
+
+.background-maincolor,
+.block { /* background: #07ff81; */ /* background: #a54594; */ background: #D36DDE; }
+
+.alternate { color: #07ff81; background: #000; }
+
+h1#logo { float:left; width: auto; font-size: 6rem; font-style: italic; font-weight: 700; letter-spacing: -2px; padding-right: 15px; }
+h1#logo span.subline { display: block; font-size: 2rem; font-style: normal; font-weight: 300; letter-spacing: 0; }
+
+nav { float:right; margin-top: 4rem; }
+nav ul { padding: 0; list-style: none; }
+nav ul li { float:left; margin: 0 0 0 30px; }
+nav ul li a { text-transform: uppercase; }
+nav ul li a:hover { border-bottom: 1px solid #000; padding: 0 0 7px 0; }
+
+h2 { font-size: 3rem; font-style: italic; font-weight: 700; padding: 10px 15px; float:left; width: auto; margin-bottom: 30px; }
+h2.inline { width: 100%; padding: 0; margin-bottom: 10px; }
+
+h4, h3 { font-size: 3rem; font-style: italic; font-weight: 700; }
+
+header { margin: 0 0 50px 0; }
+section { margin: 0 0 100px 0; }
+section#home { padding: 10px 0 20px 0; }
+
+.block { padding: 30px; }
+.block.selfie { padding: 0; }
+.block h3 { margin-top: 0px; }
+.block ul { padding: 0 0 0 20px; }
+.block ul li { list-style: outside; }
+.block > *:last-child { margin-bottom: 0; }
+.ig-selfie { max-width: 100%; position: relative; z-index: 1; }
+.block a { font-style: italic; font-weight: 700; transition: all 0.3s ease; }
+.block a:hover { color: #B600FF; }
+
+#selfie1, #secondary-skills { margin: 30px 0 0 0; }
+#selfie2 { float:left; }
+
+section#referenzen .alternate-background { padding: 30px 0; }
+#meyer-und-meyer .block,
+.references { margin-top: 30px; }
+.reference { margin-bottom: 30px; }
+.push-down { margin-top: 15px; }
+.push-up { margin-bottom: 15px; }
+
+#finken-verlag,
+#eyeglass24 { float:left; clear:both; margin-bottom: 30px; }
+#finken-verlag .block,
+#eyeglass24 .block { float:left; }
+#eyeglass24 .text { width: 50%; float:left; }
+#eyeglass24 .image-wrap { width: 48%; float:left; margin-left: 2%; }
+
+#finken-verlag .text { float:left; width: 50%; }
+#finken-verlag .image-wrap { float:left; width: 48%; margin-left: 2%; }
+#finken-verlag .image-wrap img { margin-top: 45px; }
+
+#socials li { margin-right: 30px; }
+#socials li:last-child { margin-right: 0; }
+
+footer { padding: 10px 0; }
+footer .copyright { text-transform: uppercase; font-style: italic; font-weight: 700; font-size: 3rem; }
+footer .copyright-year { font-size: 2rem; font-style: normal; display: block; }
+footer ul { list-style: none; padding: 0; float: right; margin-top: 2rem; }
+footer ul li { float:left; margin: 0 0 0 30px; }
+
+.float-left { float:left; }
+.list-style-none { list-style: none; }
+.no-padding { padding: 0; }
+.clear-both { clear:both; }
+
+#current-job { margin: 0 0 30px 0; }
+
+.cv h1 { font-size: 3rem; font-style: italic; font-weight: 700; padding: 10px 15px; float:left; width: auto; margin-bottom: 30px; }
+.cv .block h2 { padding: 0; margin-top: 0; width: 100%; }
+.cv .block#personal-details { width: 100%; }
+.cv #selfie1,
+.cv #hobbys,
+.cv #secondary-skills { margin: 0; }
+.cv .block,
+.cv address { float:left; width: 100%; }
+.cv span.push-left { padding-left: 35px; display: block; }
+.cv .block#personal-details .fa { padding-right: 10px; }
+.cv #selfie1 { max-height: 813px; overflow:hidden; }
+
+.cv #current-job { margin-top: 30px; margin-bottom: 0; }
+.cv #timeline.block { margin-bottom: 30px; margin-top: 30px; }
+.cv #timeline ol { padding: 0; }
+.cv #timeline ol li { list-style: none; float: left; width: 100%; clear: both; margin-bottom: 10px; }
+.cv #timeline ol li.last { margin-bottom: 0; }
+.cv #timeline ol li .fa { width: 2.5%; text-align: center; float:left; margin-top: 3px; }
+.cv #timeline ol li div.float-left { width: 96%; padding-left: 10px; }
+.cv #timeline ol li .date { float:left; }
+.cv #timeline ol li .title { float:left; margin-left: 0.25em; margin-right: 0.25em; font-weight: 600; }
+.cv #timeline ol li .description { float:left; }
+
+.vendor-icon { max-height: 3em; width: auto; max-width: 3em; display: table; margin: auto; height: 3em; }
+#technical-skills { float:left; }
+#technical-skills ul { padding: 0; margin-top: 18px; float: left; }
+#technical-skills li { list-style: none; float: left; width: 50%; margin-bottom: 18px; min-height: 3em; position: relative; cursor: pointer; }
+#technical-skills li.margin-bottom-0 { margin-bottom: 0; }
+#technical-skills li .desc { display: block; background: #fff; padding: 8px 10px; position: absolute; z-index: 1; visibility: hidden; opacity: 0; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+#technical-skills li:hover .desc { /* display: block; */ visibility: visible; opacity: 1; transition: opacity 0.3s ease; }
+
+#education ul,
+#current-job ul { padding: 0; }
+#education ul li,
+#current-job ul li { list-style: none; width: 100%; margin-bottom: 5px; }
+#education,
+#current-job,
+#education ul,
+#current-job ul,
+#education ul li,
+#current-job ul li,
+#education ul li span,
+#current-job ul li span.desc,
+#education ul li i,
+#current-job ul li i { float:left; }
+#education ul li i,
+#current-job ul li i { width: 10%; margin-top: 5px; max-width: 36px; }
+#current-job ul li span.desc { width: 90%; }
+#education ul li .content-by-date.date { width: 10%; text-align: right; padding-right: 0.5em; box-sizing: border-box; font-weight: 600; max-width: 50px; }
+#education ul li .content-by-date.content { width: 80%; }
+
+input.form-control,
+textarea.form-control { background: transparent; border: 1px solid #fff; border-radius: 0px; color: #fff; }
+.form-control:focus { animation-duration: 8s; animation-name: colorwalk1_border; animation-iteration-count: infinite; animation-direction: alternate; }
+button.btn-primary { background: transparent; border-radius: 0px; border-color: #fff; }
+button.btn-primary:hover { background: #000; border-color: #fff; }
+em.error { font-size: 1.5rem; }
+form { margin-bottom: 10px; }
+
+.home .block.margin-top#hobbys { float:left; width: 100%; margin-top: 30px; }
+
+/* colors n shit */
+body.orange.purple.emeralds { background: url(/web/20171018122151im_/http://scriptkid.de/img/bg/2371374766_1b8e42c8ac_o-min.jpg) no-repeat; background-size: 100%; background-attachment: fixed; }
+
+nav ul li a.active { padding: 0 0 7px 0; border-bottom: 1px solid #f0ad4e; }
+/*nav ul li { background: #000; }
+nav ul li a { padding: 0px 6px; }*/
+
+body .modal-content { background: #D36DDE; border-radius: 0; }
+.modal h2 { width: 100%; padding-left: 0; padding-right: 0; }
+.modal h3 { font-size: 2rem; }
+.modal button.close { position: absolute; font-size: 3rem; right: 20px; top: 10px; z-index: 100; }
+.modal p:last-child { margin-bottom: 30px; }
+
+.black { color: #000; }
+.background { background-color: #000; margin: 10px 0 30px 0; }
+.background h2 { margin: 0; }
+
+body .gradient {
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: .5s 0s cubic-bezier(.25,.46,.45,.94);
+  transition: .5s 0s cubic-bezier(.25,.46,.45,.94);
+}
+
+.gradient1 {
+  color: #A02D0A;
+  background: -webkit-linear-gradient(left top,#ECBB07,#A02D0A,#6B07A9);
+  background: -webkit-gradient(linear,left top,right bottom,from(#ECBB07),color-stop(#A02D0A),to(#6B07A9));
+  background: linear-gradient(to right,#ECBB07,#A02D0A,#6B07A9);
+}
+
+.gradient2 {
+  color: #f0ad4e;
+  background: -webkit-linear-gradient(left top,#ECBB07,#f0ad4e,#f0eb4e);
+  background: -webkit-gradient(linear,left top,right bottom,from(#ECBB07),color-stop(#f0ad4e),to(#f0eb4e));
+  background: linear-gradient(to right,#ECBB07,#f0ad4e,#f0eb4e);
+}
+
+.gradient3 {
+  color: #000;
+  background: -webkit-linear-gradient(left top,#000,#555,#888);
+  background: -webkit-gradient(linear,left top,right bottom,from(#000),color-stop(#555),to(#888));
+  background: linear-gradient(to right,#000,#555,#888);
+}
+
+nav ul li a.gradient2:hover {
+  border-color: #f0ad4e;
+ }
+
+.colorwalk { animation-duration: 8s; animation-name: colorwalk1; animation-iteration-count: infinite; animation-direction: alternate; }
+@keyframes colorwalk1 {
+  0% {
+    background: #ECBB07;
+  }
+
+  50% {
+    background: #A02D0A;
+  }
+
+  100% {
+    background: #6B07A9;
+  }
+}
+
+@keyframes colorwalk1_border {
+  0% {
+    border-color: #ECBB07;
+    box-shadow: 0 0 3px #ECBB07;
+  }
+
+  50% {
+    border-color: #A02D0A;
+    box-shadow: 0 0 3px #A02D0A;
+  }
+
+  100% {
+    border-color: #6B07A9;
+    box-shadow: 0 0 3px #6B07A9;
+  }
+}
+
+.blink { animation-duration: .6s; animation-name: blink; animation-iteration-count: infinite; animation-direction: alternate; }
+h2 .blink { font-size: inherit; }
+@keyframes blink {
+  0% {
+    color: transparent;
+  }
+  25% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  51% {
+    color: #000;
+  }
+  100% {
+    color: #000;
+  }
+}
+
+.fixed-header header { width: 100%; position: fixed; background: #fff; z-index: 1000; border-bottom: 1px solid #f0ad4e; }
+.fixed-header header h1#logo { font-size: 4rem; margin-top: 1rem; }
+.fixed-header h1#logo span.subline { font-size: 1.5rem; }
+.fixed-header nav ul { float: right; }
+
+/* fx */
+
+@font-face {
+  font-family: 'VCROSDMono';
+  src: url('/web/20171018122151im_/http://scriptkid.de/fonts/VCROSDMono.eot#iefix') format('embedded-opentype'),  url('/web/20171018122151im_/http://scriptkid.de/fonts/VCROSDMono.woff') format('woff'), url('/web/20171018122151im_/http://scriptkid.de/fonts/VCROSDMono.ttf')  format('truetype'), url('/web/20171018122151im_/http://scriptkid.de/fonts/VCROSDMono.svg#VCROSDMono') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body .vhs { font-family: 'VCROSDMono'; font-style: none; letter-spacing: -1px; }
+
+
+@media (min-width: 1646px) {
+  /*#selfie2 { margin: -14px 0 0 0; }
+  #hobbys { margin: -182px 0 0 0; }
+  #secondary-skills { margin: -182px 0 0 0; }*/
+}
+/*
+@media (max-width: 1645px) {
+  #current-job { margin: 0 0 30px 0; }
+  #selfie1 { margin: -154px 0 0 0; }
+  #education { margin: 14px 0 0 0; }
+  #hobbys { margin: -124px 0 0 0; }
+  #secondary-skills { margin: -124px 0 0 0; }
+}
+*/
+
+.mid-double-width { width: 200%; }
+@media (min-width: 1440px) {
+  .container { width: 98%; }
+  .mid-double-width { width: 100%; }
+  #finken-verlag .text { float:left; width: 70%; }
+  #finken-verlag .image-wrap { float:left; width: 28%; margin-left: 2%; }
+  .cv #selfie1 { max-height: 729px; }
+}
+
+@media (max-width: 1439px) {
+  #education ul li .content-by-date.date { width: 13%; }
+  #education ul li .content-by-date.content { width: 78%; }
+}
+
+@media (max-width: 1200px) {
+  #education ul li i, #current-job ul li i { width: 10%; }
+  #education ul li .content-by-date.date { width: 20%; }
+  #education ul li .content-by-date.content { width: 70%; }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 991px) {
+  .hidden-md { display: block; }
+  .hidden-sm { display: none; }
+  .mid-double-width { width: 100%; }
+  #selfie1,
+  #technical-skills,
+  #current-job,
+  #education,
+  #secondary-skills,
+  #selfie2,
+  #hobbys { margin-bottom: 30px; }
+  .reference#eyeglass24 .text,
+  .reference#eyeglass24 .image-wrap { width: 100%; margin-left: 0; float:none; }
+  .reference#eyeglass24 .block { float: none; }
+  .cv #timeline ol li .fa { width: 4%; }
+}
+
+@media (max-width: 768px) {
+  #technical-skills,
+  #technical-skills ul { width: 100%; }
+  #technical-skills li { width: 25%; margin-bottom: 30px; }
+
+  #eyeglass24 { margin-top: 0; margin-bottom: 0; }
+  #finken-verlag,
+  .reference,
+  .references { margin-top: 15px; margin-bottom: 0; }
+  #meyer-und-meyer .block { margin-top: 0; }
+
+  #eyeglass24 .text,
+  #eyeglass24 .image-wrap,
+  #finken-verlag .text,
+  #finken-verlag .image-wrap { width: 100%; margin-left: 0; }
+  #finken-verlag .image-wrap img { margin-top: 15px; }
+
+  .hidden-sm,
+  .hidden-md { display: block; }
+}
+
+@media (max-width: 480px) {
+  .hidden-xs { display: none; }
+  body, p, h1, h2, h3, h4, h5, h6, li, a, em, i, b, strong, span, table, td, th {
+    font-size: 1.7rem;
+  }
+  header { margin: 0 0 30px 0; }
+  header .col-md-6:first-child { float:left; background: black; margin: 0 0 20px 0; width: 100%; }
+  h1#logo { font-size: 2.5em; padding-right:0px; width: 100%; letter-spacing: -2.8px; margin-top: 10px; text-align: center; }
+  h1#logo span.subline { letter-spacing: -0.7px; }
+  nav { width: 100%; margin-top: 0px; }
+  nav ul { float:none; width: auto; margin: auto; display: table; }
+  nav ul li { margin: 0 0 0 9px; }
+  nav ul li:first-child { margin: 0; }
+  section { margin: 0 0 30px 0; }
+  .background { margin: 0px 0 20px 0; }
+
+
+
+  #selfie1,
+  #technical-skills,
+  #current-job,
+  #education,
+  #secondary-skills,
+  #selfie2,
+  #hobbys { margin-bottom: 15px; margin-top: 15px; }
+  #technical-skills,
+  #current-job,
+  #secondary-skills,
+  #selfie1 { margin-bottom: 0px; }
+
+  #current-job h4 { margin-top: 30px; }
+  .vendor-icon { max-width: 2em; max-height: 2em; }
+  #technical-skills li { margin-bottom: 20px; min-height: 0; }
+  #education { margin-bottom: 0; }
+  #education ul li .content-by-date.content { width: 100%; }
+  #education ul li { margin-bottom: 10px; }
+  #education ul li:last-child { margin-bottom: 0; }
+
+}
+
+@media print {
+  html, body { max-height: 99%; height: 99%; page-break-after:avoid; }
+  body, p, h5, h6, li, a, em, i, b, strong, span, table, td, th { font-size: 1.25rem; }
+  .cv span.push-left { padding-left: 26px; }
+  .cv h1 { margin-bottom: 10px; }
+  h2, h3, h4 { font-size: 2.0rem; }
+  .col-print-1 {width:8%;  float:left;}
+  .col-print-2 {width:16%; float:left;}
+  .col-print-3 {width:25%; float:left;}
+  .col-print-4 {width:33%; float:left;}
+  .col-print-5 {width:42%; float:left;}
+  .col-print-6 {width:50%; float:left;}
+  .col-print-7 {width:58%; float:left;}
+  .col-print-8 {width:66%; float:left;}
+  .col-print-9 {width:75%; float:left;}
+  .col-print-10{width:83%; float:left;}
+  .col-print-11{width:92%; float:left;}
+  .col-print-12{width:100%; float:left;}
+
+  .col-print-1 div.block,
+  .col-print-2 div.block,
+  .col-print-3 div.block,
+  .col-print-4 div.block,
+  .col-print-5 div.block,
+  .col-print-6 div.block,
+  .col-print-7 div.block,
+  .col-print-8 div.block,
+  .col-print-9 div.block,
+  .col-print-10 div.block,
+  .col-print-11 div.block,
+  .col-print-12 div.block { padding: 0 15px; }
+
+  .hidden-print,
+  .cv a[href]:after { display: none; }
+  .cv #technical-skills,
+  .cv #secondary-skills,
+  .cv #hobbys,
+  .cv #timeline.block,
+  .cv #current-job { padding: 0 15px; margin: 30px 0 0 0; }
+  .cv #current-job h4 { margin-top: 30px; }
+  .cv #current-job ul li.not-200 { width: 100%; }
+  .cv #current-job ul li { width: 200%; }
+
+  .cv #technical-skills ul { padding: 0; }
+  .cv #technical-skills ul li { float:left; width: 50%; list-style: none; }
+}
